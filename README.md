@@ -1,4 +1,5 @@
-This is [Remix](https://remix.run) running on Cloudflare [Pages](https://pages.cloudflare.com), with [Tailwind CSS](https://tailwindcss.com) and [Supabase](https://supabase.com).
+This is [Remix](https://remix.run) running on Cloudflare [Pages](https://pages.cloudflare.com), with
+[Tailwind CSS](https://tailwindcss.com) and [Supabase](https://supabase.com).
 
 ## Supabase
 
@@ -13,3 +14,7 @@ Supabase has a patch in order to work with Pages.
 ## Tailwind CSS
 
 Tailwind is configured with `@tailwind/forms` and `prettier-plugin-tailwindcss` to auto sorte class names.
+
+## Patch-package
+
+It's needed to use patch-package in order to make supbase to work with Cloudflare Pages.
